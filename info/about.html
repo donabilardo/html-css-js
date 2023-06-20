@@ -3,19 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Главная страница</title>
-    <link rel="stylesheet" href="css/style.css">
+    <title>Оставить заявку</title>
+    <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
     <nav class="nav">
-        <a href="../index.html">Главная</a>
-        <a href="/catalog/catalog.html">Каталог</a>
-        <a href="../info/about.html">О нас</a>
+        <a href="../index.html" class="nav__link">Главная</a>
+        <a href="/catalog/catalog.html" class="nav__link">Каталог</a>
+        <a href="../info/about.html" class="nav__link">О нас</a>
     </nav>
     <main class="main">
-        <h1>О нас</h1>
+        <h1 class="heading_1">Оставить заявку</h1>
 
-
+<div class="form__block">
+    <form action="#">
+        <input type="text" placeholder="Ваше имя" class="form__input">
+        <input type="email" placeholder="Ваша почта" class="form__input">
+        <button class="form__button">Отправить заявку</button>
+        <button type="reset" class="form__button">Очистить форму</button>
+    </form>
+</div>
     </main>
 </body>
 </html>
