@@ -1,0 +1,49 @@
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.top-block {
+    padding-top: 40px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.nav__menu-list {
+    display: flex;
+    align-items: center;
+}
+
+
+
+.nav__menu-item {
+    padding-left: 25px;
+}
+
+.nav__menu-list>.nav__menu-item:first-child {
+    padding-left: 0px;
+}
+
+.nav__menu-list>.nav__menu-item:last-child {
+    margin-left: 34px;
+    padding-left: 0px;
+}
+
+.nav__menu-button {
+    width: 120px;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    background: #F25822;
+    color: white;
+}
+
+.nav__logo {
+    width: 137px;
+    height: 40px;
+    flex-shrink: 0;
+}
