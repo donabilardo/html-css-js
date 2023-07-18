@@ -26,7 +26,6 @@ margin-left: 0px;
 }
 
 
-
 .basket {
     display: block;
     height: 29px;
@@ -38,7 +37,7 @@ margin-left: 0px;
     position: absolute;
     width: 19px;
     height: 19px;
-    background-color: #F16D7F;
+    background-color: $accent_color;
     border-radius: 50px;
     top: -8px;
     right: -8px;
