@@ -244,3 +244,84 @@ body {
   font-size: 32px;
   font-weight: 700;
 }
+
+.fetured__heading {
+  color: #222;
+  font-family: Lato;
+  font-size: 30px;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 6px;
+}
+
+.fetured__text {
+  color: #9F9F9F;
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.fetured {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 30px;
+  margin-bottom: 50px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.fetured__item {
+  width: 360px;
+  height: 581px;
+  background-color: #F8F8F8;
+}
+
+.fetured__item-other {
+  padding: 24px 16px;
+}
+
+.fetured__item-heading {
+  color: #000;
+  font-size: 17px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+.fetured__item-text {
+  color: #5D5D5D;
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 16px;
+}
+
+.fetured__item-price {
+  color: #F16D7F;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.featured__button-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 95px;
+}
+
+.featured__button {
+  width: 212px;
+  height: 48px;
+  border: 1px solid #F16D7F;
+  color: #F16D7F;
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 400;
+}
