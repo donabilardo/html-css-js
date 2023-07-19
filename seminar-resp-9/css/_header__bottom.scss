@@ -12,6 +12,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
+
 }
 
 .section__item::before {
@@ -24,6 +26,10 @@
     left: 0;
     top: 0;
 }
+.section__item:hover{
+    opacity: 0.9;
+    box-shadow: 10px 7px 14px 10px rgba(34, 60, 80, 0.2);
+}
 
 .section__bottom {
     width: 1140px;
@@ -32,6 +38,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
+}
+
+.section__bottom:hover{
+    opacity: 0.9;
+    box-shadow: 10px 7px 14px 10px rgba(34, 60, 80, 0.2);
 }
 
 .section__bottom::before {
@@ -62,7 +74,8 @@
     text-transform: uppercase;
     color: $accent_color;
 }
-.section__item-heading-bottom{
+
+.section__item-heading-bottom {
     position: absolute;
     top: 100px;
     text-transform: uppercase;
