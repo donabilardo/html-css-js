@@ -325,3 +325,63 @@ body {
   font-size: 16px;
   font-weight: 400;
 }
+
+.fetured2 {
+  height: 340px;
+  background-color: #222224;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.fetured2__box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 30px;
+}
+
+.fetured2__item {
+  width: 360px;
+  height: 135px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.fetured2__item-img {
+  width: 45px;
+  height: 32px;
+}
+
+.fetured2__title {
+  color: #FBFBFB;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.fetured2__text {
+  color: #FBFBFB;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 300;
+}

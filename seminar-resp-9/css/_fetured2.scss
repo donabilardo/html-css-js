@@ -1,0 +1,40 @@
+.fetured2 {
+    height: 340px;
+    background-color: #222224;
+display: flex;
+align-items: center;
+}
+
+.fetured2__box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+.fetured2__item {
+    width: 360px;
+    height: 135px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.fetured2__item-img {
+    width: 45px;
+    height: 32px;
+
+}
+
+.fetured2__title {
+    color: #FBFBFB;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.fetured2__text {
+    color: #FBFBFB;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 300;
+}
