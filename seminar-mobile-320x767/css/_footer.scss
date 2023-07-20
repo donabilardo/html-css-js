@@ -1,0 +1,32 @@
+.footer {
+    height: 80px;
+    background-color: #222224;
+    display: flex;
+    align-items: center;
+}
+
+.footer__box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__copy {
+    color: #FBFBFB;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.footer__social {
+    display: flex;
+}
+
+.footer__social-item{
+    height: 32px;
+    width: 32px;
+    background-color: #fff;
+    margin-left: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
