@@ -10,15 +10,17 @@
     box-sizing: border-box;
     align-items: center;
 }
-.logo{
-margin-left: 0px;
+
+.logo {
+    margin-left: 0px;
 }
 
-.nav__menu-link{
+.nav__menu-link {
     margin-left: 33px;
 }
 
-.nav__menu-left, .nav__menu-right{
+.nav__menu-left,
+.nav__menu-right {
     display: flex;
     height: 75px;
     box-sizing: border-box;
@@ -47,4 +49,16 @@ margin-left: 0px;
     font-size: 12px;
     font-style: normal;
     font-weight: 400;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+    .nav__login {
+        display: none;
+        visibility: hidden;
+    }
+
+    .basket {
+        display: none;
+        visibility: hidden;
+    }
 }

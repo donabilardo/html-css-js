@@ -17,7 +17,7 @@
     height: 100%;
 }
 
-.headerbox__left-img{
+.headerbox__left-img {
     width: 95%;
     position: absolute;
     left: -220px;
@@ -58,4 +58,44 @@
         position: absolute;
         left: -32px;
     }
+}
+
+
+
+
+@media (min-width: 320px) and (max-width: 767px) {
+
+    .header{
+        min-height: 363px;
+    }
+    .headerbox {
+        height: 360px;
+        justify-content: center;
+    }
+
+    .headerbox__left{
+        display: none;
+    }
+
+
+    .headerbox__right-title {
+        width: 220px;
+        height: 66px;
+
+        h1 {
+            font-size: 27px;
+            font-weight: 900;
+        }
+
+        h2 {
+            font-size: 18px;
+            font-weight: 700;
+        }
+        &::before{
+            height: 55px;
+            width: 10px;
+            left: -20px;
+        }
+    }
+
 }

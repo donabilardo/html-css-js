@@ -83,3 +83,21 @@
     font-size: 32px;
     font-weight: 700;
 }
+
+
+@media (min-width: 320px) and (max-width: 767px) {
+    .section__bottom{
+        width: 340px;
+        height: 110px;
+    }
+    .section__bottom::before {
+        content: '';
+        display: block;
+        position: absolute;
+        width: 340px;
+        height: 110px;
+        background-color: rgba(33, 22, 22, 0.70);
+        left: 0;
+        top: 0;
+    }
+}

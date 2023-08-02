@@ -5,7 +5,7 @@ body {
 
 .container {
   margin: 0 auto;
-  width: 1170px;
+  max-width: 1170px;
   padding: 0px 15px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -39,7 +39,8 @@ body {
   margin-left: 33px;
 }
 
-.nav__menu-left, .nav__menu-right {
+.nav__menu-left,
+.nav__menu-right {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -80,6 +81,16 @@ body {
   font-weight: 400;
 }
 
+@media (min-width: 320px) and (max-width: 767px) {
+  .nav__login {
+    display: none;
+    visibility: hidden;
+  }
+  .basket {
+    display: none;
+    visibility: hidden;
+  }
+}
 .header {
   min-height: 764px;
   background-color: #F1E4E6;
@@ -142,6 +153,37 @@ body {
   left: -32px;
 }
 
+@media (min-width: 320px) and (max-width: 767px) {
+  .header {
+    min-height: 363px;
+  }
+  .headerbox {
+    height: 360px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .headerbox__left {
+    display: none;
+  }
+  .headerbox__right-title {
+    width: 220px;
+    height: 66px;
+  }
+  .headerbox__right-title h1 {
+    font-size: 27px;
+    font-weight: 900;
+  }
+  .headerbox__right-title h2 {
+    font-size: 18px;
+    font-weight: 700;
+  }
+  .headerbox__right-title::before {
+    height: 55px;
+    width: 10px;
+    left: -20px;
+  }
+}
 .section {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -245,6 +287,22 @@ body {
   font-weight: 700;
 }
 
+@media (min-width: 320px) and (max-width: 767px) {
+  .section__bottom {
+    width: 340px;
+    height: 110px;
+  }
+  .section__bottom::before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 340px;
+    height: 110px;
+    background-color: rgba(33, 22, 22, 0.7);
+    left: 0;
+    top: 0;
+  }
+}
 .fetured__heading {
   color: #222;
   font-family: Lato;
@@ -348,6 +406,8 @@ body {
       -ms-flex-align: center;
           align-items: center;
   gap: 30px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .fetured2__item {
