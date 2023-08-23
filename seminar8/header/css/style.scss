@@ -2,18 +2,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 body {
-    display: flex;
-    min-height: 100vh;
-    flex-direction: column;
-    justify-content: center;
+
     background-color: rgb(213, 216, 221);
 }
 
 .container {
-    width: 70%;
+    width: 1170px;
     margin: 0 auto;
 }
 
+.nav1{
+    min-height: 100vh;
+}
 .nav {
     background-color: #222;
     height: 100px;
@@ -38,4 +38,9 @@ body {
     &:hover {
         color: orange;
     }
+}
+
+
+.main {
+    min-height: 100vh;
 }

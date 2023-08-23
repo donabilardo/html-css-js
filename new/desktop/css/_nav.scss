@@ -1,0 +1,25 @@
+.nav {
+    height: 75px;
+    background-color: #222;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav__left{
+    display: flex;
+    align-items: center;
+}
+.nav__left-logo {
+    width: 44px;
+    height: 38px;
+    margin-right: 41px;
+}
+
+.nav__left-search {
+    width: 26px;
+    height: 26px;
+}
